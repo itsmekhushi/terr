@@ -9,7 +9,7 @@ resource "aws_instance" "example" {
   tags = {
     Name = "JenkinsTerraformEC2"
   }
-}
+
 user_data = <<-EOF
               #!/bin/bash
               echo "it works on ssh node agant "> /home/ec2-user/agent_info.txt
