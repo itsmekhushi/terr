@@ -45,3 +45,25 @@ sudo apt-get install awscli -y
 aws --version
 curl -sO http://13.233.82.98:8080/jnlpJars/agent.jar
 java -jar agent.jar -url http://13.233.82.98:8080/ -secret acd89f1d626219db597ad71e5523b2b119d225f76092fce1a33a75487d64d4d7 -name node1 -webSocket -workDir "/home/ubuntu"
+git add .
+git init
+git add .
+git commit -m "Add/Update Terraform files"
+git reset
+git add main.tf
+git commit -m "Add/Update Terraform files"
+git push origin master
+git remote add origin https://github.com/itsmekhushi/terr.git
+git push origin master
+curl -sO http://13.233.82.98:8080/jnlpJars/agent.jar
+java -jar agent.jar -url http://13.233.82.98:8080/ -secret acd89f1d626219db597ad71e5523b2b119d225f76092fce1a33a75487d64d4d7 -name node1 -webSocket -workDir "/home/ubuntu"
+java -version
+sudo adduser jenkins
+su - jenkins
+sudo usermod -aG sudo jenkins
+su - jenkins
+sudo deluser --remove-home jenkins
+sudo pkill -u jenkins
+sudo adduser jenkins
+sudo usermod -aG sudo jenkins
+su - jenkins

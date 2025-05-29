@@ -1,10 +1,10 @@
-May 29, 2025 6:07:41 AM hudson.remoting.Launcher createEngine
+May 29, 2025 9:01:18 AM hudson.remoting.Launcher createEngine
 INFO: Setting up agent: node1
-May 29, 2025 6:07:41 AM hudson.remoting.Engine startEngine
+May 29, 2025 9:01:18 AM hudson.remoting.Engine startEngine
 INFO: Using Remoting version: 3301.v4363ddcca_4e7
-May 29, 2025 6:07:41 AM org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
+May 29, 2025 9:01:18 AM org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
 INFO: Using /home/ubuntu/remoting as a remoting work directory
-May 29, 2025 6:07:42 AM hudson.remoting.Launcher$CuiListener status
+May 29, 2025 9:01:19 AM hudson.remoting.Launcher$CuiListener status
 INFO: WebSocket connection open
-May 29, 2025 6:07:42 AM hudson.remoting.Launcher$CuiListener status
+May 29, 2025 9:01:19 AM hudson.remoting.Launcher$CuiListener status
 INFO: Connected

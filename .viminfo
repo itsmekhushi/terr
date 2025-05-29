@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1748499531,,"wq!"
+|2,0,1748509669,,"wq!"
 
 # Search String History (newest to oldest):
 
@@ -25,22 +25,36 @@
 # Registers:
 
 # File marks:
-'0  6  41  ~/main.tf
-|4,48,6,41,1748499531,"~/main.tf"
+'0  14  35  ~/main.tf
+|4,48,14,35,1748509669,"~/main.tf"
+'1  6  41  ~/main.tf
+|4,49,6,41,1748499531,"~/main.tf"
+'2  6  41  ~/main.tf
+|4,50,6,41,1748499531,"~/main.tf"
 
 # Jumplist (newest first):
+-'  14  35  ~/main.tf
+|4,39,14,35,1748509669,"~/main.tf"
+-'  6  41  ~/main.tf
+|4,39,6,41,1748509580,"~/main.tf"
 -'  6  41  ~/main.tf
 |4,39,6,41,1748499531,"~/main.tf"
+-'  1  0  ~/main.tf
+|4,39,1,0,1748499475,"~/main.tf"
 -'  1  0  ~/main.tf
 |4,39,1,0,1748499475,"~/main.tf"
 
 # History of marks within files (newest to oldest):
 
 > ~/main.tf
-	*	1748499530	0
-	"	6	41
-	^	6	42
-	.	6	40
-	+	12	1
+	*	1748509667	0
+	"	14	35
+	^	14	36
+	.	14	35
+	+	16	1
 	+	2	19
 	+	6	40
+	+	17	0
+	+	15	4
+	+	12	2
+	+	14	35
